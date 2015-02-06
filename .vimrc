@@ -48,7 +48,7 @@ set shiftwidth=4
 set smartindent
 set tabstop=4
 set softtabstop=4
-"set expandtab
+set expandtab
 set switchbuf+=usetab,newtab
 set autochdir
 inoremap {      {}<Left>
@@ -89,3 +89,4 @@ command Q q
 command Wig wa! | !ig
 command TODO tabedit `currTODO`
 map <C-Return> :wa!<CR>:!ig<CR>
+map mm :w!<CR>
