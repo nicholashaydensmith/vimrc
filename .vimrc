@@ -1,7 +1,7 @@
 syntax enable
 let base16colorspace=256
 set background=dark
-"colorscheme base16-default
+colorscheme base16-default
 
 """"""""""""""""""""""""""""""""""""""""""
 ""              Vundle
